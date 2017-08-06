@@ -1,0 +1,34 @@
+{
+  "name": "frontend-nanodegree-mobile-portfolio",
+  "version": "0.0.1",
+  "description": "Udacity Frontend Nanodegree - Project Web Optimization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangxin/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "keywords": [
+    "Udacity",
+    "Frontend",
+    "Nanodegree",
+    "web",
+    "optimization"
+  ],
+  "author": "Xin Wang (wangxin.wang@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangxin/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/wangxin/frontend-nanodegree-mobile-portfolio#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-minifier": "^0.2.2",
+    "gulp-sequence": "^0.4.6"
+  },
+  "private": true
+}
