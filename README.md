@@ -1,46 +1,45 @@
 ## Website Performance Optimization portfolio project
 
-Thanks to Github Pages, website of this project can be viewed at: [https://wangxin.github.io/frontend-nanodegree-mobile-portfolio/](https://wangxin.github.io/frontend-nanodegree-mobile-portfolio/)
+Thanks to Github Pages, website of this project can be viewed at: [https://wangxin.github.io/frontend-nanodegree-mobile-portfolio/dist/index.html](https://wangxin.github.io/frontend-nanodegree-mobile-portfolio/dist/index.html)
 
 ### How to build an optimized version of the website of this project
 
 1. Ensure that Node and npm are installed
-```
+```bash
 node -v
 npm -v
 ```
 2. Install gulp-cli
-```
+```bash
 npm install --global gulp-cli
 ```
 3. Download the project and install build tools
-```
+```bash
 git clone https://github.com/wangxin/frontend-nanodegree-mobile-portfolio.git
 cd frontend-nanodegree-mobile-portfolio
 npm install
 ```
 4. Run the build tool. Optimized version of the website will be stored in `dist` subfolder.
-```
+```bash
 gulp
 ```
 
 ### How to inspect the site on local machine
 
-1. To inspect the site on your phone, you can run a local server
-
-  ```bash
-  $> cd /path/to/frontend-nanodegree-mobile-portfolio/dist
-  $> python -m SimpleHTTPServer 8080
-  ```
+1. To inspect the site, you can run a local server
+```bash
+cd /path/to/frontend-nanodegree-mobile-portfolio/dist
+python -m SimpleHTTPServer 8080
+```
+2. Open a browser and visit `http://localhost:8080`
 
 ### Make your local site accessible from Internet
-1. Open a browser and visit localhost:8080
-1. Download and install [ngrok](https://ngrok.com/) to the dist folder of your project directory to make your local server accessible remotely.
-
+1. Download and install [ngrok](https://ngrok.com/) to the dist folder of your project directory to make your local server accessible from Internet.
   ``` bash
   $> cd /path/to/frontend-nanodegree-mobile-portfolio/dist
   $> ./ngrok http 8080
   ```
+2. Open a browser and visit the url given by ngrok
 
 ### Optimizations made in `index.html`:
 
