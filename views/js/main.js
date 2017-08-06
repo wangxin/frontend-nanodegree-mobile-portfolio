@@ -500,7 +500,10 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
+
+  // Read and store scrollTop to avoid repetitively triggered layout in the loop
   var scrollTop = document.body.scrollTop;
+
   var items = document.querySelector("#movingPizzas1").children;
   for (var i = 0; i < items.length; i++) {
     var phase = Math.sin((scrollTop / 1250) + (i % 5));
